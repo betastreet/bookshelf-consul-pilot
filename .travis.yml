@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - '4'
+  - node
+deploy:
+  provider: npm
+  email: leduc.paul@gmail.com
+  api_key:
+    secure: "ne2aV1b9X2jpiyVFcRJtMNdZtKqERBE+wTDOYIbyzHKUAk9ftCG1dDU5IXs1yhNEVYNzDyHb8v6tRm9KHFZXkfvGJrF8PBXLbNr29RqghNSOoNFX39eStG+8p2bFhSYbqkOvu6yz9JQOR3DVkYOzDOQEQijoi+7yw9HaXLKKesn7S4f64z5UJrjNt3YSU+ScpMDyNVIED07nBuooGNaoRyprAODyOtuhxk99Mzh2ngd+ZHwU+ogxf0s70TDOo1b+EGIpYw1rUC3Q8B+UJlRtXL2XGZiYW7KYutuOnbreK7ey2F4qm5Us/cnAaIPxJE/Bvu+CJEGp3vMXYSs8HMR7Y0/cJ/2vXYXY0yZ3wO8vXE8vZXo0+6k35HRh86ZKRo1sTO3h6DqP8/jI6oUoLhc5MugavPE4yC/FhfwBKjjI82V8sEch5iS0nwcBWrtMgORIm8YK/TOfufgImx+WKcE+/RJfXzffmuk2X0DG4JFRyeppRxvpGBy5rnNwbfk0EF1hvyTq+hT5HYVyytInBGnCx+exEGWFkokyfL6jq/NTQprCu8HgoQpBeHoWxwdbxjZ2S3eLCzzsbI8qg1W+pwBHvy0BsGEijrL7Qp2yQR1w7+Na11S/Whj6yQPuH7SmIPg4mvtxvSVHot016WF/SxtG6EhApkCr3KyVX4wyXyXS3JU="

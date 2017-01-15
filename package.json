@@ -1,0 +1,42 @@
+{
+  "author": {
+    "email": "leduc.paul@gmail.com",
+    "name": "Paul Leduc"
+  },
+  "bugs": {
+    "url": "https://github.com/paulleduc/bookshelf-consul-pilot/issues"
+  },
+  "dependencies": {
+    "consul-pilot": "^1.0.1"
+  },
+  "description": "Create a Knex/Bookshelf connection that updates dynamically using consul-pilot.",
+  "devDependencies": {},
+  "directories": {},
+  "homepage": "https://github.com/paulleduc/bookshelf-consul-pilot#readme",
+  "keywords": [
+    "bookshelf",
+    "knex",
+    "consul-pilot",
+    "connection",
+    "reconnect",
+    "database"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "leduc.paul@gmail.com",
+      "name": "paulleduc"
+    }
+  ],
+  "name": "bookshelf-consul-pilot",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulleduc/bookshelf-consul-pilot.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "version": "0.0.1"
+}
