@@ -4,7 +4,7 @@ const path = require('path');
 
 class BookshelfConsulPilot {
 
-    constructor(knexConfig, watchService, modelsDir, plugins) {
+    constructor(knexConfig, watchService, modelsDir, plugins, skipWatcher) {
         this._knexConfig = knexConfig;
         this._modelsDir = modelsDir || path.join(__dirname, '/../models');
         this._plugins = plugins;
@@ -14,7 +14,7 @@ class BookshelfConsulPilot {
 
         this._connectBookshelf(knex);
 
-        this._watcher(watchService);
+        if (!skipWatcher) this._watcher(watchService);
     }
 
     _connectBookshelf(knex) {

@@ -16,6 +16,7 @@ const path = require('path');
 // Argument 2: The Consul database service name to listen for changes in connections on
 // Argument 3: The path to your Bookshelf models folder that bookshelf-consul-pilot will read models from
 // Argument 4: A function for configuring Bookshelf plugins. This will called every time a new connection is reported
+// Argument 5: Optionally bypass the new connection watching by passing true. Useful for dev and in some cases unit testing
 module.exports = new BookshelfConsulPilot(knexfile, 'database', path.join(__dirname, '/../models'), (bookshelf) => {
     bookshelf.plugin('pagination');
     bookshelf.plugin(require('bookshelf-signals')());
